@@ -15,6 +15,7 @@
 1. 添加多个入口：
   删除原有入口`src/main.js`，新建`pages`目录，在`pages`目录下添加每个页面对应的目录。
 2. 调整后src目录结构：
+  ```
   ├── src
       ├── assets
       │   └── logo.png
@@ -27,6 +28,7 @@
       │       ├── index.js
       │       └── index.vue
       └── App.vue
+  ```
 <h3 id="step-3">3. 配置修改</h3>
 
 1. 安装`glob`模块：
