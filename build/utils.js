@@ -99,7 +99,7 @@ exports.createNotifierCallback = () => {
     })
   }
 }
-/**添加部分开始**/
+/**-----添加部分开始-----**/
 const merge = require('webpack-merge')
 const glob = require('glob')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
@@ -148,4 +148,4 @@ exports.HtmlWebpackPlugins = () => {
   }
   return HtmlPlugins;
 }
-/**添加部分结束**/
+/**-----添加部分结束-----**/
