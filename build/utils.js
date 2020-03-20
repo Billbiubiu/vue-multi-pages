@@ -125,11 +125,12 @@ exports.HtmlWebpackPlugins = () => {
   // js入口对应的路径
   const dirPath = './src/pages/*/*.js'; 
   const pages = exports.getEntries(dirPath);
+  console.log(pages)
   let HtmlPlugins = [];
   for(let page in pages) {
     let config = {
       title: page,
-      filename: 'pages/' + page + '.html',
+      filename: 'pages/' + page + '/index.html',
       template: 'index.html',
       inject: true,
       chunks: ['manifest', 'vendor', page]

@@ -46,3 +46,4 @@
 <h3 id="step-4">4. 注意事项</h3>
 
 1. 由于`demo.js`和`demo.vue`文件同名，所以在`demo.js`文件中引入`demo.vue`时，`demo.vue`后缀名不可省略，否则无法正确引入组件。
+2. 由于修改了配置，所以运行时页面的地址有所变化，本项目首页地址为：`localhost:8080/pages/home`，可在devServer中设置`openPage: "pages/home"`，即可在运行时自动打开首页。
